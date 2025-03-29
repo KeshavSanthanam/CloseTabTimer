@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Close Tab",
+  "description": "This extension automatically closes tabs after a set timer.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
